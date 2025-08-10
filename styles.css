@@ -46,6 +46,11 @@ body {
 .yellow {
   background-color: yellow;
 }
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
 @media screen and (max-width: 800px) {
   body {
     background-color: #011F3F;
@@ -70,10 +75,5 @@ body {
   .btn {
     height: 120px;
     width: 120px;
-  }
-  
-}
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  } 
 }
