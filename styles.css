@@ -46,7 +46,33 @@ body {
 .yellow {
   background-color: yellow;
 }
+@media screen and (max-width: 800px) {
+  body {
+    background-color: #011F3F;
+  }
 
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin: 5%;
+    color: #FEF2BF;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .btn {
+    height: 120px;
+    width: 120px;
+  }
+  
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
